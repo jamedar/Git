@@ -1,0 +1,16 @@
+root@p1lg512294 cmcluster]# ls -l
+total 4
+drwxrwxrwx   3 root root   17 Aug  8 18:12 run
+drwxrwxr-x. 14 root root 4096 Aug  5 16:27 serviceguardmanager
+[root@p1lg512294 cmcluster]# cd run
+[root@p1lg512294 run]# ls -l
+total 0
+drwxrwxrwx 2 root root 20 Aug  8 18:12 log
+[root@p1lg512294 run]# cd ..
+[root@p1lg512294 cmcluster]# ls -l
+total 4
+drwxrwxrwx   3 root root   17 Aug  8 18:12 run
+drwxrwxr-x. 14 root root 4096 Aug  5 16:27 serviceguardmanager
+[root@p1lg512294 cmcluster]#
+logout
+[hpeadm@p1lg512294 ~]$
