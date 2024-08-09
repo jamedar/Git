@@ -1,0 +1,13 @@
+As per Trail E-Mail . 
+
+latest  update:
+
+Hi John,
+     This is related to the same thing which we discussed earlier , port 5693 need to be open and that  will use by nagios . As cloud team is using customize iptables , port are not being enabled at server level to listen from nagios master sever . How we can take it further ? 
+
+Thanks
+Amit 
+
+
+
+curl -Sks https://linuxrepos-colo1.its.hpecorp.net/engineering/salt/scripts/base-highstate.sh | /bin/bash
